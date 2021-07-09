@@ -1,35 +1,50 @@
 {
-  "name": "ferris-docs",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Ferris Docs",
-  "author": "Carter Black",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
-    "gatsby": "^3.8.1",
-    "gatsby-plugin-image": "^1.9.0",
-    "gatsby-plugin-manifest": "^3.9.0",
-    "gatsby-plugin-mdx": "^2.9.0",
-    "gatsby-plugin-postcss": "^4.9.0",
-    "gatsby-plugin-react-helmet": "^4.9.0",
-    "gatsby-plugin-sharp": "^3.9.0",
-    "gatsby-plugin-sitemap": "^4.5.0",
-    "gatsby-source-filesystem": "^3.9.0",
-    "gatsby-transformer-sharp": "^3.9.0",
-    "postcss": "^8.2.6",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
-  }
+	"name": "ferris-docs",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Ferris Docs",
+	"author": "Carter <c@ey.lc>",
+	"keywords": [
+		"gatsby"
+	],
+	"scripts": {
+		"develop": "gatsby develop",
+		"dev": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean"
+	},
+	"dependencies": {
+		"@fontsource/inter": "^4.5.0",
+		"@fontsource/roboto-mono": "^4.5.0",
+		"@fontsource/roboto-slab": "^4.5.0",
+		"@headlessui/react": "^1.3.0",
+		"@heroicons/react": "^1.0.1",
+		"@mdx-js/mdx": "^1.6.22",
+		"@mdx-js/react": "^1.6.22",
+		"@tailwindcss/typography": "^0.4.1",
+		"autoprefixer": "^10.2.6",
+		"gatsby": "^3.8.1",
+		"gatsby-plugin-image": "^1.9.0",
+		"gatsby-plugin-manifest": "^3.9.0",
+		"gatsby-plugin-mdx": "^2.9.0",
+		"gatsby-plugin-postcss": "^4.9.0",
+		"gatsby-plugin-react-helmet": "^4.9.0",
+		"gatsby-plugin-sharp": "^3.9.0",
+		"gatsby-plugin-sitemap": "^4.5.0",
+		"gatsby-source-filesystem": "^3.9.0",
+		"gatsby-transformer-sharp": "^3.9.0",
+		"lodash": "^4.17.21",
+		"postcss": "^8.3.5",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-helmet": "^6.1.0",
+		"slugify": "^1.5.3",
+		"tailwindcss": "^2.2.4"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.171",
+		"@types/mdx-js__react": "^1.5.3"
+	}
 }
