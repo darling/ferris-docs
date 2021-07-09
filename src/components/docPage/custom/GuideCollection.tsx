@@ -1,6 +1,5 @@
-import { graphql, useStaticQuery } from 'gatsby';
 import React, { FC } from 'react';
-import { string } from 'yargs';
+
 import { CustomHeaders } from '../../docContent/headers';
 
 export interface ICollectionData {

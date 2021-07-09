@@ -1,17 +1,12 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Menu, Transition } from '@headlessui/react';
 import {
 	CalendarIcon,
-	CheckIcon,
-	ChevronDownIcon,
 	ChevronRightIcon,
-	LinkIcon,
-	PencilIcon,
 	UserIcon,
 } from '@heroicons/react/solid';
 import { Link } from 'gatsby';
 import { capitalize, compact, drop, take } from 'lodash';
-import React, { Fragment, FC } from 'react';
+import React, { FC, Fragment } from 'react';
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ');

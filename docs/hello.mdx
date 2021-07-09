@@ -3,33 +3,8 @@ title: Hello
 author: Safe
 ---
 
-import { Collection }, from './../src/components/docPage/custom/GuideCollection.tsx';
-import { useStaticQuery, graphql } from 'gatsby';
+import { GuideCollection } from './../src/components/docPage/given/GuideTest.tsx';
 
 Hello this is a test component page.
 
-<div>{() => {
-    const data = useStaticQuery(graphql`
-		query GetCategory {
-			allMdx(filter: { slug: { regex: "/^(guides)//g" } }, limit: 3) {
-				edges {
-					node {
-						id
-						slug
-						fields {
-							slug
-						}
-						timeToRead
-						frontmatter {
-							title
-						}
-						excerpt(truncate: true, pruneLength: 50)
-					}
-				}
-			}
-		}
-	`);
-
-    return <Collection data={data} />
-
-}}</div>
+<GuideCollection />
